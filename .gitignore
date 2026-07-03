@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Dados gerados
+data/processed/*
+data/rejected/*
+
+# Mantém as pastas versionadas
+!data/processed/.gitkeep
+!data/rejected/.gitkeep
+
+# Sistema / editor
+.DS_Store
+.vscode/
+.idea/
