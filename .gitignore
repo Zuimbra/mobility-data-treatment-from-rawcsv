@@ -10,10 +10,12 @@ venv/
 env/
 
 # Dados gerados
+data/intermediate/*
 data/processed/*
 data/rejected/*
 
 # Mantém as pastas versionadas
+!data/intermediate/.gitkeep
 !data/processed/.gitkeep
 !data/rejected/.gitkeep
 
